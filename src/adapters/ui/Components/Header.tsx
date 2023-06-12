@@ -125,7 +125,7 @@ const Header = () => {
       <Main open={open}>
         <DrawerHeader />
         <Outlet/>
-        {pathname === "/" && <Root />}
+        {pathname === "/home" && <Root />}
       </Main>
     </Box>
   );
