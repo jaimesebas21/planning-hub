@@ -1,0 +1,17 @@
+.Form-Login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.shadowed-component {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+ body, html, #root {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: darkgrey;
+  }
