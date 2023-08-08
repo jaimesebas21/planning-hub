@@ -5,6 +5,7 @@ import { HostModules } from "./ui/Components/Menu/HostModules";
 import { Profile } from "./ui/Components/Menu/Profile";
 import { Root } from "./ui/Components/Root";
 import  Login from "./ui/Components/Screens/authentication/Login";
+import Register from "./ui/Components/Screens/authentication/Register";
 
 export {
     Header,
@@ -13,5 +14,6 @@ export {
     HostModules,
     CommonModules,
     Profile,
-    Login
+    Login,
+    Register
 }

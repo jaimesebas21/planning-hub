@@ -1,17 +1,54 @@
-.Form-Login{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
+.Form-Login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
 }
+
+.Container-Authenticate {
+  background-image: gray;
+  height: 100vh;
+  background: url('../../../assets/images/chip.svg');
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: gray;
+
+  /* -webkit-mask-image:url('../../../assets/images/chip.svg');
+  mask-image:url('../../../assets/images/chip.svg'); */
+}
+.Container-Mask {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: absolute;
+  z-index: -1;
+  content:'';
+  display: flex;
+  background-image: gray;
+  -webkit-mask-image:url('../../../assets/images/chip.svg');
+  mask-image:url('../../../assets/images/chip.svg');
+}
+
 .shadowed-component {
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-  }
- body, html, #root {
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: darkgrey;
-  }
+  box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.3);
+}
+
+body,
+html,
+#root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  /* background-color: darkgrey; */
+}
+
+form {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 400px,
+}
